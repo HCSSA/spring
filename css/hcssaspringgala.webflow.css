@@ -189,15 +189,22 @@
   margin-bottom: 30px;
 }
 
-.columns-5-0 {
+.columnsleft {
   margin-top: 30px;
   margin-right: -10px;
   margin-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .nopadding {
+  display: block;
+  overflow: hidden;
   padding-right: 10px;
+  padding-bottom: 0px;
   padding-left: 0px;
+  text-align: center;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .showright {
@@ -296,6 +303,42 @@
   margin-top: 10px;
   margin-bottom: 80px;
   padding-top: 50px;
+}
+
+.image-2 {
+  display: block;
+  width: 100%;
+}
+
+.image-3 {
+  display: block;
+}
+
+.image-4 {
+  display: block;
+}
+
+.image-5 {
+  display: block;
+}
+
+.image-6 {
+  display: block;
+}
+
+.image-7 {
+  display: block;
+}
+
+.image-8 {
+  display: block;
+  max-width: 100%;
+}
+
+.lightbox-link {
+  display: block;
+  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 991px) {
