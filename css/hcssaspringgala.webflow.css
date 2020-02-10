@@ -199,10 +199,10 @@
 .nopadding {
   display: block;
   overflow: hidden;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  text-align: center;
+  padding-right: 10px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  text-align: right;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -218,8 +218,9 @@
 }
 
 .nopadding1 {
-  padding-right: 0px;
-  padding-left: 10px;
+  display: inline-block;
+  padding-right: 0px !important; 
+  padding-left: 10px !important;
 }
 
 .columns-5-1 {
@@ -339,6 +340,20 @@
   display: block;
   width: 100%;
   max-width: 100%;
+}
+
+.image-9 {
+  margin-right: 0px;
+}
+
+.columnsleft-copy {
+  margin-top: 30px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+}
+
+.image-10 {
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
