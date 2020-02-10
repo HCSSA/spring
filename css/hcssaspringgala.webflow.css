@@ -1,0 +1,415 @@
+.body {
+  height: 1000px;
+  background-color: #e72e2e;
+  background-image: -webkit-gradient(linear, right top, left top, from(#df0000), color-stop(64%, #a20000));
+  background-image: linear-gradient(270deg, #df0000, #a20000 64%);
+}
+
+.column {
+  padding-right: 0px;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.column-2 {
+  padding-right: 0px;
+}
+
+.section {
+  margin-top: 3vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.paragraph {
+  margin-bottom: 0px;
+  font-family: 'Long Cang', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+
+.column-3 {
+  padding-right: 0px;
+  text-align: right;
+}
+
+.yellow-paragraph {
+  font-family: 'Long Cang', sans-serif;
+  color: #ffd900;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: normal;
+}
+
+.line-divider {
+  height: 1px;
+  margin: 10px 5vw;
+  background-color: #fff;
+}
+
+.column-4 {
+  padding-left: 0px;
+}
+
+.section-2 {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-left: 5vw;
+}
+
+.column-5 {
+  padding-right: 0px;
+}
+
+.column-6 {
+  padding-right: 100px;
+  padding-left: 0px;
+}
+
+.columns-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section-3 {
+  margin: 70px 5vw 80px;
+}
+
+.title {
+  position: static;
+  margin-bottom: 50px;
+  font-family: 'Ma Shan Zheng', sans-serif;
+  color: #fff;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.columns-3 {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.button {
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#740000), to(rgba(255, 7, 7, 0)));
+  background-image: linear-gradient(180deg, #740000, rgba(255, 7, 7, 0));
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.image {
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+
+.bold-text {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.column-7 {
+  height: 100%;
+  min-height: 100%;
+}
+
+.column-8 {
+  padding-left: 0px;
+}
+
+.column-9 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.columns-4 {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #a20000;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  cursor: pointer;
+}
+
+.column-10 {
+  padding-right: 0px;
+  text-align: right;
+}
+
+.content {
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.link-block {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.showleft {
+  margin: 10px 5vw 80px 0px;
+  padding-top: 50px;
+}
+
+.rightalign {
+  margin-left: 5vw;
+  text-align: right;
+}
+
+.video {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.columns-5-0 {
+  margin-top: 30px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+}
+
+.nopadding {
+  padding-right: 10px;
+  padding-left: 0px;
+}
+
+.showright {
+  margin: 10px 0px 80px 5vw;
+  padding-top: 50px;
+}
+
+.leftalign {
+  margin-right: 5vw;
+  text-align: left;
+}
+
+.nopadding1 {
+  padding-right: 0px;
+  padding-left: 10px;
+}
+
+.columns-5-1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+.paragraphright {
+  margin-bottom: 0px;
+  font-family: 'Long Cang', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  text-align: right;
+  letter-spacing: 0.1em;
+}
+
+.image-copy {
+  max-height: 100px;
+  margin-bottom: 20px;
+}
+
+.columns-5-10 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+.columns-5-00 {
+  margin-top: 0px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+}
+
+.columns-5-copy {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #a20000;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  cursor: pointer;
+}
+
+.link-block-copy {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.div-block-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.section-0 {
+  margin: 10px 5vw 80px;
+  padding-top: 50px;
+}
+
+.link {
+  color: #fff;
+}
+
+.column-11 {
+  padding-left: 0px;
+}
+
+.videonopadding {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.column-5-copy {
+  padding-right: 0px;
+  padding-left: 10vw;
+}
+
+.sectionlogo {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    margin-top: 8vw;
+  }
+  .column-3 {
+    padding-left: 0px;
+  }
+  .section-0 {
+    margin-top: 8vw;
+  }
+  .sectionlogo {
+    margin-top: 8vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    margin-top: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+  .column-3 {
+    padding-left: 0px;
+  }
+  .column-5 {
+    padding-left: 0px;
+  }
+  .columns-2 {
+    display: block;
+  }
+  .image {
+    max-height: 80px;
+  }
+  .columns-4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .nopadding {
+    padding-bottom: 20px;
+  }
+  .nopadding1 {
+    padding-bottom: 20px;
+  }
+  .image-copy {
+    max-height: 80px;
+  }
+  .columns-5-copy {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .section-0 {
+    margin-top: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+  .column-5-copy {
+    padding-left: 0px;
+  }
+  .sectionlogo {
+    margin-top: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    margin-top: 10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .line-divider {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .section-2 {
+    margin-left: 10vw;
+  }
+  .column-6 {
+    padding-right: 10vw;
+  }
+  .section-3 {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .image {
+    max-height: 50px;
+  }
+  .showleft {
+    margin-right: 10vw;
+  }
+  .rightalign {
+    margin-left: 10vw;
+  }
+  .showright {
+    margin-left: 10vw;
+  }
+  .leftalign {
+    margin-right: 10vw;
+  }
+  .image-copy {
+    max-height: 50px;
+  }
+  .section-0 {
+    margin-top: 10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .sectionlogo {
+    margin-top: 10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+}
+
