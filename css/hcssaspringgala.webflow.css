@@ -199,9 +199,9 @@
 .nopadding {
   display: block;
   overflow: hidden;
-  padding-right: 10px !important;
-  padding-bottom: 0px !important;
-  padding-left: 0px !important;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   text-align: right;
   -o-object-fit: cover;
   object-fit: cover;
@@ -219,8 +219,8 @@
 
 .nopadding1 {
   display: inline-block;
-  padding-right: 0px !important; 
-  padding-left: 10px !important;
+  padding-right: 0px;
+  padding-left: 10px;
 }
 
 .columns-5-1 {
@@ -392,6 +392,12 @@
   .columns-4 {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .nopadding {
+    padding-bottom: 20px;
+  }
+  .nopadding1 {
+    padding-bottom: 20px;
   }
   .image-copy {
     max-height: 80px;
